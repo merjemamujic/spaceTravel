@@ -1,0 +1,64 @@
+// @font-face {
+//     font-family: "Bellefair Regular";
+//     src: local("Bellefair Regular"), url(../../assets/font/Bellefair-Regular.ttf) format("truetype");
+// }
+
+.mat-toolbar {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    background-color: transparent;
+    width: 1385px;
+    float: right;
+    height: 96px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    width: 1000px;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    right: 0px;
+    // background: transparent;
+    background-color: rgba(255, 255, 255, 0.058);  /* Set the transparency to 0.3 */
+    overflow: hidden;
+    backdrop-filter: blur(7px);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.custom-tab-label {
+    font-family: 'barlow';
+    font-size: 16px;
+    // margin-left: 30px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.icon{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.custom-tab-group {
+    height: 100px; /* Adjust the height value as per your requirement */
+}
+
+// .mat-tab-label{
+//     color:white;
+//     min-width: 25px !important;
+//     padding: 5px;
+//        background-color:transparent;
+//         color:white;
+//         font-weight: 700;
+//   }
+
+.mat-tab-label-active.mat-tab-header {
+    border-bottom-color: white !important;
+}
+
+.mdc-tab .mdc-tab-indicator { display: none; }
+  

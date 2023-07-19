@@ -1,0 +1,93 @@
+h1{
+    margin-left: 330px;
+    margin-top: 212px;
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: barlow;
+    letter-spacing: 0.1em;
+    position: absolute;
+}
+
+.planets{
+   position: absolute;
+   margin-left: 400px;
+   margin-top: 343px; 
+}
+
+.container{
+    position: absolute;
+    font-family: barlow;
+    color: whitesmoke;
+    margin-top: 310px;
+    margin-left: 1100px;
+    width: 450px;
+    height: 472px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    width: 83%;
+    position: absolute;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-tab-label {
+    font-family: 'barlow';
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.custom-tab-group {
+    height: 34px; 
+}
+
+.mat-tab-label-active.mat-tab-header {
+    border-bottom-color: whitesmoke !important;
+}
+
+.mdc-tab .mdc-tab-indicator { display: none; }
+  
+.name{
+    position: absolute;
+    font-size: 100px;
+    font-family: bellefair;
+    margin-top: 100px;
+}
+
+.info{
+    position: absolute;
+    font-family: barlow;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    margin-top: 200px;
+    color: #D0D6F9;
+}
+
+.avg{
+    position: absolute;
+    margin-top: 400px;
+    font-family: barlow;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    // color: #D0D6F9;
+}
+.time{
+    position: absolute;
+    margin-top: 400px;
+    font-family: barlow;
+    font-size: 14px;
+    margin-left: 250px;
+    letter-spacing: 0.2em;
+    // color: #D0D6F9;
+}
+
+body {
+    height: 100%;
+    background-image: url(../../../assets/images/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

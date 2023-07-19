@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    background-image: url(../../../assets/images/crew/background-crew-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-left: 330px;
+    margin-top: 212px;
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: barlow;
+    letter-spacing: 0.1em;
+    position: absolute;
+}
+
+.container{
+    position: absolute;
+    font-family: barlow;
+    color: whitesmoke;
+    width: 650px;
+    height: 472px;
+    margin-top: 350px;
+    margin-left: 330px;
+}
+
+.crewImg{
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 160px;
+}
+
+.title{
+    font-size: 32px;
+    font-family: bellefair;
+    color: #c2c4cc;
+}
+
+.name{
+    font-size: 56px;
+    font-family: bellefair;
+    margin-top: 50px;
+}
+
+.info{
+    margin-top: 60px;
+    color: #D0D6F9;
+    font-family: barllow;
+    font-size: 20px;
+    line-height: 30px;
+    // letter-spacing: 0.1em;
+}
+
+
+// ::ng-deep.mat-tab-label .mat-tab-label-content {
+//     height: 34px;
+//     font-size: 50px;
+//     width: 100px;
+//     position: absolute;
+//     left: 0px;
+//     color: 	whitesmoke!important;
+//     min-width: 0!important;
+//  padding: 3px!important;
+//  margin: 3px!important;
+// }
+// ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
+//     min-width: 0!important;
+//     padding: 3px!important;
+//     margin: 3px!important;
+//     color: 	rgb(255,215,0)!important;
+// }
+//    ::ng-deep.mat-tab-group {
+//     flex-direction: row;
+//     position: absolute;
+//     top: 20px;
+// }
+
+
+.navbar {
+    text-transform: uppercase;
+    // width: 70%;
+    position: absolute;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-tab-label {
+    font-family: 'barlow';
+    font-size: 16px;
+    color: whitesmoke;
+    
+}
+
+.custom-tab-group {
+    height: 34px; 
+}
+
+.mat-tab-label-active.mat-tab-header {
+    border-bottom-color: whitesmoke !important;
+}
+
+.mdc-tab .mdc-tab-indicator { display: none; }

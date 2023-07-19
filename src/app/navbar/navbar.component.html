@@ -1,0 +1,66 @@
+<mat-toolbar>
+  <div style="margin-top: 20px;">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#FFF" />
+        <path
+          fill="#0B0D17"
+          d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+        />
+      </g>
+    </svg>
+    <div>
+      <mat-divider
+        [ngStyle]="{
+        'background-color':'whitesmoke',
+        'width':'500px',
+        'margin-top': '45px',
+        'margin-left': '110px',
+        'opacity': '0.3',
+        'position': 'relative',
+        'z-index': '1'
+      }"
+      ></mat-divider>
+    </div>
+  </div>
+
+  <mat-tab-group mat-align-tabs="end" class="navbar custom-tab-group" (selectedTabChange)="onTabChanged($event);">
+
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span class="custom-tab-label" >
+          <span 
+              style="font-weight: bold;">00
+          </span>
+            HOME
+        </span>
+        
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span class="custom-tab-label">
+          <span style="font-weight: bold;">01</span> DESTINATION</span
+        >
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span class="custom-tab-label">
+          <span style="font-weight: bold;">02</span> CREW</span
+        >
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span class="custom-tab-label">
+          <span style="font-weight: bold;">03</span> TECHNOLOGY</span
+        >
+      </ng-template>
+    </mat-tab>
+  </mat-tab-group>
+</mat-toolbar>
+
+<!-- 
+<app-home></app-home> -->
+

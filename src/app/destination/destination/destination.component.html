@@ -1,0 +1,66 @@
+<body>
+  <h1>01 PICK YOUR DESTINATION</h1>
+  <div>
+    <img class="planets" [src]="planetImg" alt="" />
+  </div>
+  <div class="container">
+    <mat-tab-group
+      mat-align-tabs="end"
+      class="navbar custom-tab-group"
+      (selectedTabChange)="tabChanged($event);"
+    >
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label">MOON</span>
+        </ng-template>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label">MARS</span>
+        </ng-template>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label">EUROPA</span>
+        </ng-template>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label">TITAN</span>
+        </ng-template>
+      </mat-tab>
+    </mat-tab-group>
+
+    <p class="name">{{planet}}</p>
+    <p class="info">{{planetDescription}}</p>
+
+    <!-- <hr /> -->
+    <!-- ili mat-devider ovdje -->
+
+    <mat-divider
+      [ngStyle]="{
+        'background-color':'whitesmoke',
+        'width':'450px',
+        'margin-top': '370px',
+        'opacity': '0.3',
+        'position': 'absolute',
+        'z-index': '1'
+      }"
+    ></mat-divider>
+
+    <div class="avg">
+      <p style="color: #d0d6f9;">AVG.DISTANCE</p>
+      <p style="font-family: bellefair; font-size: 28px;">
+        {{avgDistanceToPlanet}}
+      </p>
+    </div>
+
+    <div class="time">
+      <p style="color: #d0d6f9;">EST. TRAVEL TIME</p>
+      <p style="font-family: bellefair; font-size: 28px;">{{avgTravelTIme}}</p>
+    </div>
+  </div>
+</body>

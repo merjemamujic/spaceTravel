@@ -1,0 +1,53 @@
+
+.bg {
+    height: 100%;
+    background-image: url(../../../assets/images/background-home-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    width: 450px;
+    height: 382px;
+    margin-top: 387px;
+    margin-left: 300px;
+    color: whitesmoke;
+}
+
+.container h3{
+    font-size: 28px;
+    font-family: barlow;
+    padding-bottom: 30px;
+}
+
+.container h1{
+    font-size: 150px;
+    font-family: bellefair;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.container p{
+    font-size: 18px;
+    font-family: barlow;
+    position: absolute;
+    padding-top: 30px;
+    line-height: 1.9;
+}
+
+.circle{
+    color: black;
+    margin-top: 450px;
+    margin-left: 1300px;
+    width: 274px;
+    height: 274px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 274px;
+    font-size: 32px;
+    font-family: bellefair;
+    letter-spacing: 1.0 ;
+}

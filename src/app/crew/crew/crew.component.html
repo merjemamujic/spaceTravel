@@ -1,0 +1,59 @@
+<body>
+  <h1>02 MEET YOUR CREW</h1>
+
+  <div>
+    <img class="crewImg" [src]="crewImage" alt="" />
+  </div>
+
+  <div class="container">
+
+    <p class="title">{{crewTitle}}</p>
+    <p class="name">{{crewName}}</p>
+    <p class="info">{{crewInfo}}</p>
+
+    <!-- <mat-tab-group
+      (selectedTabChange)="tabChanged($event)"
+      style="
+        position: absolute;
+        top: 310px;
+        flex-direction: coulmn;
+      "
+    >
+      <mat-tab label="•"></mat-tab>
+      <mat-tab label="•"> </mat-tab>
+      <mat-tab label="•"> </mat-tab>
+      <mat-tab label="•"> </mat-tab>
+    </mat-tab-group> -->
+
+    <mat-tab-group
+      mat-align-tabs="end"
+      class="navbar custom-tab-group"
+      (selectedTabChange)="tabChanged($event);"
+    >
+      <mat-tab style="border: transparent">
+        <ng-template mat-tab-label>
+          <span  class="custom-tab-label"> H.DOUGLAS</span>
+        </ng-template>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label"> S.MARK</span>
+        </ng-template>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label">G.VICTOR</span>
+        </ng-template>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <span class="custom-tab-label">A.ANOUSHEH</span>
+        </ng-template>
+      </mat-tab>
+    </mat-tab-group>
+
+  </div>
+</body>
